@@ -1,0 +1,273 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*font-family: 'Poppins', sans-serif;  */
+
+/*  Everything */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* whole navbar */
+#navbar-main{ 
+    display: flex;
+    flex-direction: column;
+    position: static;
+    height: 100px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+/* navbar */
+#navbar{
+    height: 60px;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    background-color: #131921;
+}
+
+/* left navbar */
+
+.navbar-left{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 225px;
+    padding-left: 11px ;
+}
+
+/* logo */
+.nav-logo{
+    box-sizing: border-box;
+    margin: 3px;
+}
+
+.nav-logo :hover{
+    border: solid #fff 1px;
+    border-radius: 5px;
+}
+
+/* Location */
+.nav-global{
+    box-sizing: border-box;
+    margin-left: 2px;
+    width: 94.375px;
+    position: static;
+}
+
+.nav-global:hover{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.nav-location{
+    width: 20px;
+    height: 55px;
+}
+
+.location-logo{
+    width: 12px;
+    height: 14px;
+    box-sizing: border-box;
+    margin-top: 29px;
+    margin-left: 6px;
+}
+
+.spa{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: static;
+}
+
+.two-spans{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: static;
+    margin-left: 3px;
+    
+}
+
+.span1{
+    height: 13.9931px;
+    padding: 0px; 
+    display: block;
+    font-family: 'Poppins', sans-serif;   
+    box-sizing: border-box;
+    margin-top: 12px;
+    font-weight:lighter;
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.span2{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: medium;
+    color: rgb(204, 204, 204);
+    font-weight:bold;
+}
+
+/* Search */
+.nav-search{
+    width: 850px;
+    height: 60px;
+    box-sizing: border-box;
+    justify-content: center;
+    position: static;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.search-cont{
+    width: 830px;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+/* navbar right */
+.nav-search-right{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: static;
+    color: #fff;
+    height: 60px;
+    box-sizing: border-box;
+    width: 410px;
+}
+
+/* order */
+.order-container{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: 100px;
+}
+
+.order-container:hover{
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin: 3px;
+}
+
+.order-logo{
+    box-sizing: border-box;
+    width: 30px;
+    height: 60px;
+}
+
+.order-logo > img{
+    padding-top: 30px;
+    width: 12px;
+    height: 12px;
+}
+
+.order-text{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    text-align: left;
+    box-sizing: border-box;
+    width: 70px;
+    height: 60px;
+}
+
+.small-order-text{
+    width: 70px;
+    height: 25px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    font-weight:lighter;
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+}
+
+.large-order-text{
+    width: 70px;
+    height: 35px;
+    box-sizing: border-box;
+    color: rgb(204, 204, 204);
+    font-weight:bold;
+    font-size: medium;
+}
+
+/* connect */
+.connect-logo{
+    box-sizing: border-box;
+    width: 30px;
+    height: 60px;
+}
+
+.connect-logo > img{
+    padding-top: 30px;
+    width: 15px;
+    height: 12px;
+}
+
+/* home */
+.home-logo{
+    box-sizing: border-box;
+    width: 30px;
+    height: 60px;
+}
+
+.home-logo > img{
+    padding-top: 30px;
+    width: 17px;
+    height: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbelt */
+#navbelt{
+    position: static;
+    background-color: rgb(35, 47, 62);
+    height:  38.9931px;
+}
+
+/* main */
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
